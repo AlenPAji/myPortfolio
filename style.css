@@ -430,3 +430,13 @@ footer {
 footer p {
   text-align: center;
 }
+
+.image_profile{
+  
+    border-radius: 30%;
+ 
+}
+
+.about-pic{
+  width: 20rem
+}
