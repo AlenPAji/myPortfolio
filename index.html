@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Alen P Aji</div>
+      
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -368,14 +368,9 @@
         <div class="gallery-item">
           <img src="./assets/gallery3.jpg" alt="Gallery Image 3" class="gallery-img" />
         </div>
-        <div class="gallery-item">
-          <img src="./assets/gallery4.jpg" alt="Gallery Image 4" class="gallery-img" />
-        </div>
-        <div class="gallery-item">
-          <img src="./assets/gallery5.jpg" alt="Gallery Image 5" class="gallery-img" />
-        </div>
       </div>
     </section>
+    
     
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -400,6 +395,23 @@
         </div>
       </div>
     </section>
+    <div class="form-container">
+      <h1>Let Me Know Who Was Here</h1>
+      <form action="send_email.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="purpose">Purpose of Visit:</label>
+          <input type="text" id="purpose" name="purpose" required>
+
+          <label for="funElement">Fun Element (Favorite Color):</label>
+          <input type="text" id="funElement" name="funElement" placeholder="e.g., Blue, Red" required>
+
+          <button type="submit">Submit</button>
+      </form>
+  </div>
+
+   
     <footer>
       <nav>
         <div class="nav-links-container">
